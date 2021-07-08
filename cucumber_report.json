@@ -1,0 +1,94 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;user-should-be-able-to-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should be able to login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page",
+            "match": {
+              "location": "features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "TypeError: Cannot read property 'goto' of undefined\n    at CustomWorld.visit (D:\\My Freelancing Projects\\Puppeteer Framework\\BDD Framework\\features\\support\\world.js:16:25)\n    at CustomWorld.<anonymous> (D:\\My Freelancing Projects\\Puppeteer Framework\\BDD Framework\\features\\support\\steps.js:16:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I fill the login form",
+            "match": {
+              "location": "features\\support\\steps.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be able to see My Account Screen",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "TypeError: Cannot read property 'close' of undefined\n    at CustomWorld.closeBrowser (D:\\My Freelancing Projects\\Puppeteer Framework\\BDD Framework\\features\\support\\world.js:13:28)\n    at CustomWorld.<anonymous> (D:\\My Freelancing Projects\\Puppeteer Framework\\BDD Framework\\features\\support\\steps.js:12:19)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\support\\login.feature"
+  }
+]

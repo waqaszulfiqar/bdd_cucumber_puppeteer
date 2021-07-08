@@ -1,0 +1,24 @@
+{
+  "name": "bdd-framework",
+  "version": "1.0.0",
+  "description": "puppeteer with cucumber js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "gerkin",
+    "cucumber",
+    "javascript"
+  ],
+  "author": "waqas zulfiqar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "puppeteer": "^9.0.0"
+  }
+}
